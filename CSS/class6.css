@@ -1,0 +1,107 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    width: 300px;
+    height: 300px;
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+.one{
+
+    height: 450px;
+    width: 500px;
+    background-color: yellowgreen;
+    
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: auto;
+    
+}
+
+.one h2{
+    color:white;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    background-color: violet;
+    padding: 10px 0px;
+    border-radius: 0px 25px 0px 20px;
+
+}
+.one p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+
+.one a{
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+.two{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+}
+
+.main{
+   
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: violet;
+    background-image:url(../images/banner2.jpg), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-size: 320px, cover;
+    background-position: right bottom, center center;
+}
+
+.common{
+
+    height: 200px;
+    width: 200px;
+    float: left;
+
+
+}
+
+.one1{
+    
+    background-color: violet;
+  
+}
+.two1{
+    
+    background-color: yellow;
+    
+}
+.three1{
+   
+    background-color: tomato;
+    
+}
+.four1{
+    
+    background-color: turquoise;
+    
+}

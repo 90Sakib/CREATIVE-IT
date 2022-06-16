@@ -1,0 +1,167 @@
+.main{
+   
+    width: 1400px;
+    height: 1000px;
+    margin: auto;
+    
+    background-color: white;
+   
+    background-repeat: no-repeat;
+   
+    background-position: center;
+    background-size:  cover;
+    background-position:  center center;
+}
+
+.common{
+
+    height: 500px;
+    width: 466px;
+    float: left;
+    
+
+
+}
+
+.main h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main h3{
+
+    text-align: center;
+    
+}
+
+.one1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon10.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.one1 h1{
+
+    text-align: left;
+
+}
+
+.one1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}
+
+.two1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon11.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.two1 h1{
+
+    text-align: left;
+
+}
+
+.two1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}
+
+.three1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon12.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.three1 h1{
+
+    text-align: left;
+
+}
+
+.three1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}
+
+.four1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon13.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.four1 h1{
+
+    text-align: left;
+
+}
+
+.four1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}
+
+.five1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon14.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.five1 h1{
+
+    text-align: left;
+
+}
+
+.five1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}
+
+.six1{
+    
+    background-color: white;
+    background-image: url(../ICONS/icon15.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top left;
+  
+}
+
+.six1 h1{
+
+    text-align: left;
+
+}
+
+.six1 p{
+    font-size: 20px;
+font-family: sans-serif;
+color: #6D7F93;
+}

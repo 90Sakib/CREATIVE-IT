@@ -1,0 +1,585 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+#top_header{
+    
+    background: red;
+}
+
+.container{
+    
+    width: 1110px;
+    margin: auto;
+   
+}
+
+p{
+    line-height: 24px;
+}
+
+h2{
+    color: #5b6b80;
+font-size: 32px;
+font-weight: 600;
+}
+
+h3{
+    font-size: 24px;
+font-family: 'Arimo', sans-serif;
+font-weight: 500;
+line-height: 1.2;
+margin-bottom: .5rem;
+margin-top: .5rem;
+text-align: center;
+color: #212529;
+}
+
+.headline p{
+    color: #777;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 1rem;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*header part css */
+
+#top_header{
+    background: red;
+}
+
+.header_left{
+width: 20%;
+}
+
+
+.header_right{
+    width: 80%;
+
+}
+
+body{
+    font-family: 'Arimo' , sans-serif;
+}
+
+.header_left h4{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.valign_center{
+    align-items: center;
+}
+
+.header_right marquee{
+    color: #fff;
+    font-size: 16px;
+}
+
+/* main menu css*/
+
+#main_menu{
+box-shadow: 0 0 20px #ddd;
+position: relative;
+z-index: 99;
+}
+
+.logo{
+width: 25%;
+
+}
+
+.menu{
+width: 75%;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #444;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 26px 25px;
+    display: block;
+    transition: .5s;
+}
+
+.menu ul li a:hover{
+    color: #ee2e24;
+}
+
+
+.menu ul li:last-child a{
+    background-color: #ee2e24;
+    color: #fff;
+}
+
+.logo p{
+    margin-left: 20px;
+    position: relative;
+    color: #666666;
+}
+
+.logo p::after{
+content: '';
+position: absolute;
+height: 20px;
+width: 3px;
+background: #666666;
+left: -8px;
+top: 0;
+}
+
+
+
+/* banner part css*/
+
+.banner_items{
+    height: 500px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/*about part css*/
+
+#about{
+    padding: 58px 0;
+    border-top: 1px solid #D1ECF1;
+}
+
+.about_left{
+    width: 40%;
+}
+
+.about_right{
+    width: 60%;
+    padding-left: 30px;
+    color: #777777;
+}
+
+.about_left img{
+    width: 100%;
+}
+
+.about_right h2{
+    color: #5B6B80;
+    font-size: 32px;
+font-weight: 600;
+
+}
+
+.about_right p{
+    padding-top: 13px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+
+/*seminer schdule css*/
+
+#seminar_schedule{
+    background: #F5F5F5;
+    padding: 48px 0;
+}
+
+.schedule_inner{
+    background-color: #fff;
+    width: 100%;
+}
+
+.schedule_inner h2{
+    text-align: center;
+    padding: 23px 0;
+    background-color: #dddddda3;
+    color: #444;
+font-size: 32px;
+}
+
+.schedule_inner table{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.schedule_inner table th{
+    background: #49596D;
+    padding: 15px 0;
+    color: #F8F9FA;
+}
+
+.schedule_inner table td{
+    text-align: center;
+    height: 55.6px;
+    
+}
+
+.schedule_inner table tr:nth-child(even){
+    background-color: #F2F2F2;
+}
+
+.schedule_inner table tr td a{
+    background-color: #49596D;
+    padding: 10px 40px;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: .2s;
+}
+
+.schedule_inner table tr td a:hover{
+    background-color: #ee2e24;
+}
+
+
+/*our course css*/
+
+#our_courses{
+    background: #FFFFFF;
+    padding-top: 50px;
+
+}
+
+
+
+
+.courses_left{
+    width: 50%;
+   background: #F5F5F5;
+   padding: 10px 0;
+   
+}
+
+.courses_right{
+    width: 50%;
+    background: #F5F5F5;
+    padding: 0 10px;
+    
+}
+
+.courses_text{
+    width: 63%;
+    background: #F5F5F5;
+    border: 1px solid #F2F2F2;
+}
+
+.courses_picture{
+    width: 37%;
+}
+
+
+
+.courses_text> p{
+    font-size: 16px;
+font-family: 'Arimo', sans-serif;
+line-height: 26px;
+padding-top: 10px;
+color: #414447;
+margin-left: 5px;
+}
+
+.courses_text a p{
+    color: #fff;
+font-size: 16px;
+font-family: 'Arimo', sans-serif;
+}
+
+.courses_text a p{
+    background: #49596d;
+padding-left: 30px;
+line-height: 46px;
+margin-top: 28px;
+border-radius: 0px 46px 46px 0px;
+width: 170px;
+margin-bottom: 40px;
+transition: .2s;
+}
+
+.courses_text a:hover p{
+    background: #E52C23;
+}
+
+.courses_left img{
+    width: 100%;
+   
+}
+
+.courses_right img{
+    width: 100%;
+   
+}
+
+/*galary part css*/
+
+#our_galary{
+    background: #FFFFFF;
+    padding-top: 50px;
+}
+
+.img-one{
+    width: 33.3%;
+}
+
+.img-one img{
+    width: 100%;
+    padding: 5px 9px;
+}
+
+/*galary part css end*/
+
+/* contact form start*/
+
+
+#conatact_form{
+    padding-top: 50px;
+}
+
+
+
+/* contact form start*/
+.form_start table td{
+    padding-right: 15px;
+padding-left: 15px;
+height: 61.6px;
+width: 992px;
+padding-left: 0 !important;
+}
+
+.form_start table td input{
+    display: block;
+width: 100%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    
+}
+
+.form_start table td textarea{
+    display: block;
+width: 203.5%;
+padding: .375rem .75rem;
+font-size: 1rem;
+line-height: 1.5;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+padding-bottom: 3rem !important;
+    }
+
+.emt{
+    padding-top: 10px;
+} 
+
+
+
+.sub_buttton button{
+    background: #49596d;
+padding: 10px 40px;
+color: #fff;
+font-size: 18px;
+border: 0;
+font-family: 'Arimo', sans-serif;
+border-radius: 50px;
+
+cursor: pointer;
+transition: .2s;
+
+
+
+}
+
+.sub_buttton{
+    padding-top: 20px;
+    padding-bottom: 54.6px;
+    text-align: center !important;
+    width: 100%;
+}
+
+.sub_buttton button:hover{
+    background: #E52C23;
+    
+}
+
+
+
+
+
+/* contact form end*/
+
+
+/*last part start*/
+#change_grow{
+    background: #F5F5F5;
+    
+}
+
+
+
+.last_logo img{
+    padding-top: 39.3px;
+    
+    
+}
+
+
+
+.last_logo{
+    width: 30%;
+    text-align: center !important;
+    
+    padding-right: 50px;
+}
+
+.address{
+    width: 35%;
+}
+
+.Contact{
+    width: 35%;
+}
+
+.last_logo h4{
+    font-family: 'Montserrat', sans-serif;
+color: #2c2c2c;
+font-size: 16px;
+padding-top: 25px;
+font-weight: 500;
+line-height: 1.2;
+
+padding-bottom: 78.6px;
+}
+
+.last_logo img{
+    padding-top: 52.5px;
+}
+
+
+.address h3{
+    color: #4e5e73;
+font-size: 24px;
+font-family: 'Arimo', sans-serif;
+font-weight: 400;
+padding-top: 45.3px;
+text-align: left;
+}
+
+.address hr{
+    
+content: '';
+
+left: 0;
+width: 50px;
+height: 3px;
+background: #DDDDDD;
+border: none;
+bottom: 20px;
+}
+
+.address p{
+    padding-top: 20px;
+    font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+}
+
+
+
+.Contact h3{
+    color: #4e5e73;
+font-size: 24px;
+font-family: 'Arimo', sans-serif;
+font-weight: 400;
+padding-top: 45.3px;
+text-align: left; 
+}
+
+.Contact hr{
+    content: '';
+
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #DDDDDD;
+    border: none;
+    bottom: 20px;  
+}
+
+.Contact p{
+    padding-top: 20px;
+    font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+color: #212529;
+}
+
+.Contact a{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #5c5c5c;
+    margin-top: 19px;
+    transition: .5s;
+   
+}
+
+.Contact a:hover{
+    background: #EE2E24;
+    color: #F5F5F5;
+    
+}
+
+
+/*last part end*/
+
+
+
+/*l-last part start*/
+.copyright p{
+    line-height: 50px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+color: #212529;
+font-weight: 400;
+text-align: center;
+}
+/*l-last part end*/

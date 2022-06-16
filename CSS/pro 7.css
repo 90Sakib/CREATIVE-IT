@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+.justify_content_center{
+    justify-content: center;
+}
+
+.justify_content_between{
+    justify-content: space-between;
+}
+
+.valign_center{
+    align-items: center;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #333333;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+
+/*first part start */
+
+#first_part{
+    background-color: #353535;
+}
+
+.first_accent >ul >li{
+    position: relative;
+    margin: 15px 0;
+    
+}
+
+.first_accent ul li i{
+    color: #FFFFFF;
+}
+
+.first_accent> ul> li> a{
+    font-size: 13px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+    
+}
+
+.first_accent ul li ul li a{
+    font-size: 13px;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    color: #cccccc;
+    
+   
+}
+
+
+
+.first_accent ul li ul{
+    position: absolute;
+    visibility: hidden;
+    margin-top: 50px;
+    
+    display: none;
+    transform: translateY(-52px);
+}
+
+
+.first_accent ul li:hover ul{
+    visibility: visible;
+    display: block;
+   
+}
+
+.first_accent{
+    border-right: 1px solid #cccccc;
+    
+}
+
+
+
+
+
+/*first part end */
+
